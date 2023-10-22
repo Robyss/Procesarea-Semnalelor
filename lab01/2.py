@@ -25,6 +25,7 @@ def b():
 
 def c():
     # Un semnal de tip sawtooth de frecventa 240Hz
+    pass
 
 if __name__ == '__main__':
     # a()
