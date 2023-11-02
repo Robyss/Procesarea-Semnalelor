@@ -283,6 +283,7 @@ def ex8():
 
     plt.subplot(2, 1, 2)
     plt.plot(alpha, error, label='Eroare', color='green')
+    plt.yscale('log')
     plt.title('Eroare între sin(α) și α (aproximare)')
     plt.legend()
     plt.grid(True)
@@ -306,6 +307,7 @@ def ex8():
 
     plt.subplot(2, 1, 2)
     plt.plot(alpha, error_pade, label='Eroare', color='green')
+    plt.yscale('log')
     plt.title('Eroare între sin(α) și Pade sin(α)')
     plt.legend()
     plt.grid(True)
